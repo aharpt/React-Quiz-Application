@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 const App = () => {
-    return (
-        <h1>Quiz Application</h1>
-    )
+    return React.createElement("h1", {}, "Quiz Application")
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render (
+    React.createElement(App, {}, null), document.getElementById('root')
+);
