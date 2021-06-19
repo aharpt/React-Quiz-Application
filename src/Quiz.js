@@ -24,5 +24,5 @@ ReactDOM.render (
 );
 
 ReactDOM.render (
-    <Quiz />, document.getElementById('root')
+    <Quiz />, document.getElementById('body')
 );
