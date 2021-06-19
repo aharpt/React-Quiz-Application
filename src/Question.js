@@ -3,14 +3,16 @@ import PossibleAnswer from "./PossibleAnswer"
 const Question = (props) => {
     return (
     <div>
-        <h3 id="question-title">{props.title}</h3>
-        { /* answers */ }
-        <PossibleAnswer value="Jared" />
-        <PossibleAnswer value="Aaron" />
-        <PossibleAnswer value="Brett" />
-        <PossibleAnswer value="Rachel" />
+        <div className="question">
+            <h3 id="question-title">{props.title}</h3>
+            { /* answers */ }
+            <PossibleAnswer value={props.options[0]} />
+            <PossibleAnswer value={props.options[1]} />
+            <PossibleAnswer value={props.options[2]} />
+            <PossibleAnswer value={props.options[3]} />
 
-        <button type="button" className="btn btn-primary submit-answer">Submit Answer</button>
+            <button type="button" className="btn btn-secondary btn-sm submit-answer">Submit Answer</button>
+        </div>
     </div>
     )
 };
