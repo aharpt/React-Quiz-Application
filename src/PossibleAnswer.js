@@ -1,10 +1,14 @@
 import React from 'react'
+let i = 0;
+
 
 const PossibleAnswer = (props) => {
+    
+    i++;
     return (
         <div className="form-check">
-            <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
-            <label className="form-check-label" htmlFor="exampleRadios1">{props.value}</label>
+            <input className="form-check-input" type="radio" name="exampleRadios" id={i} value="option1" />
+            <label className="form-check-label" htmlFor={i}>{props.value}</label>
         </div>
     )
 };
