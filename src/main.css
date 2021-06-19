@@ -7,3 +7,16 @@
 .next {
     margin-top: 15px;
 }
+
+/* icons */
+svg.bi.bi-forward-fill {
+    margin-bottom: 3px;
+}
+
+/* hide/show questions */
+#question-2,
+#question-3,
+#question-4,
+#question-5 {
+    display: none;
+}
