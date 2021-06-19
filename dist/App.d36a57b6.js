@@ -29575,11 +29575,11 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var App = function App() {
+var Quiz = function Quiz() {
   return _react.default.createElement("h1", {}, "Quiz Application");
 };
 
-_reactDom.default.render(_react.default.createElement(App, {}, null), document.getElementById('root'));
+_reactDom.default.render(_react.default.createElement(Quiz, {}, null), document.getElementById('root'));
 },{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
