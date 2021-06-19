@@ -1,3 +1,3 @@
-const Question = () => {
+const Question = (props) => {
     
 };
