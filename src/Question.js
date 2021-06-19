@@ -14,7 +14,7 @@ const Question = (props) => {
             <PossibleAnswer value={props.options[2]} />
             <PossibleAnswer value={props.options[3]} />
 
-            <button id={"button-" + i} type="button" className="btn btn-secondary btn-sm submit-answer">Submit Answer</button>
+            <button id={"button-" + i} type="button" className="btn btn-secondary btn-sm next">Next</button>
         </div>
     </div>
     )
