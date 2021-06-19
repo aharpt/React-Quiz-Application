@@ -6,7 +6,7 @@ import Heading from './Heading'
 const Quiz = () => {
     return (
         <div className="container">
-            <Question title="What is my First Name" />
+            <Question title="What is my First Name?" />
         </div>
     )
 };
