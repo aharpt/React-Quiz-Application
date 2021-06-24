@@ -5,9 +5,11 @@ const nextQuestion = () => {
     if (document.getElementById("btn-1").style.display !== "none") {
         document.getElementById("question-1").style.display = "none";
         document.getElementById("question-2").style.display = "inline-block";
+        console.log("btn-1 display is not none");
     } else if (document.getElementById("btn-2").style.display !== "none") {
         document.getElementById("question-2").style.display = "none";
-        document.getElementById("question-3").style.display = "inline-block"; 
+        document.getElementById("question-3").style.display = "inline-block";
+        console.log("btn-2 display is not none");
     }
 };
 
