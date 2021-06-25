@@ -3,9 +3,7 @@ let i = 0;
 
 const changeDisabled = () => {
     console.log("changeDisabled function called");
-    if (document.querySelector(".next").style.disabled == true) {
-        console.log("Button is Disabled");
-    }
+    document.querySelector(".next").removeAttribute("disabled"); 
 };
 
 const PossibleAnswer = (props) => {
