@@ -4,4 +4,4 @@ dist/
 .DS-Store
 coverage/
 .vscode/
-.cache/
+**/.cache
